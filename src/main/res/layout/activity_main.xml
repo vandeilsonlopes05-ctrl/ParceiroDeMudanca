@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0f172a"
+    android:padding="26dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ParceiroDeMudança"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="52dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:hint="Email"
+        android:textColor="#fff"
+        android:textColorHint="#94a3b8"
+        android:paddingLeft="16dp"
+        android:backgroundTint="#3b82f6"/>
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="14dp"
+        android:hint="Senha"
+        android:textColor="#fff"
+        android:textColorHint="#94a3b8"
+        android:inputType="textPassword"
+        android:paddingLeft="16dp"
+        android:backgroundTint="#3b82f6"/>
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Entrar"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#2563eb"/>
+
+    <TextView
+        android:id="@+id/criarConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criar conta"
+        android:textColor="#60a5fa"
+        android:textSize="14sp"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>
